@@ -1,10 +1,17 @@
 import ScrollReveal from "@/components/ScrollReveal";
+import CountUp from "@/components/CountUp";
 
 const stats = [
-  { value: "12+ yrs", label: "Leadership experience" },
-  { value: "IIM-B", label: "MBA, Indian Institute of Management Bangalore" },
-  { value: "KPMG · Shell", label: "Former HR Director" },
-  { value: "15,000+", label: "LinkedIn followers" },
+  {
+    display: <><CountUp value={12} suffix="+" /> yrs</>,
+    label: "Leadership experience",
+  },
+  { display: "IIM-B", label: "MBA, Indian Institute of Management Bangalore" },
+  { display: "KPMG · Shell", label: "Former HR Director" },
+  {
+    display: <><CountUp value={15000} suffix="+" /></>,
+    label: "LinkedIn followers",
+  },
 ];
 
 export default function CredentialsStrip() {
@@ -21,7 +28,7 @@ export default function CredentialsStrip() {
             }`}
           >
             <p className="font-display text-2xl text-deep-brown sm:text-3xl">
-              {stat.value}
+              {stat.display}
             </p>
             <p className="mt-2 text-sm text-deep-brown/70">{stat.label}</p>
           </div>

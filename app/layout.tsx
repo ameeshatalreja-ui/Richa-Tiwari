@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Alegreya } from "next/font/google";
 import { BookingProvider } from "@/components/BookingContext";
 import BookingModal from "@/components/BookingModal";
+import StickyBookBar from "@/components/StickyBookBar";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -36,6 +37,7 @@ export default function RootLayout({
         <BookingProvider>
           {children}
           <BookingModal />
+          <StickyBookBar />
         </BookingProvider>
       </body>
     </html>

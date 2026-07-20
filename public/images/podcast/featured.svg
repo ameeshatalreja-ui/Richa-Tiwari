@@ -1,0 +1,11 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder — replace with featured episode thumbnail">
+  <defs>
+    <linearGradient id="gf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D2018"/>
+      <stop offset="55%" stop-color="#9B5A4B"/>
+      <stop offset="100%" stop-color="#EB7559"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#gf)"/>
+  <text x="80" y="810" font-family="Arial, sans-serif" font-size="24" letter-spacing="2" fill="#FDF5F2" fill-opacity="0.6">REPLACE — /public/images/podcast/featured</text>
+</svg>

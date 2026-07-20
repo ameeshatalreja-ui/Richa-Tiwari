@@ -38,9 +38,10 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-[15px] tracking-wide text-deep-brown/80 transition-colors hover:text-terracotta"
+              className="group relative py-1 text-[15px] tracking-wide text-deep-brown/80 transition-colors hover:text-terracotta"
             >
               {link.label}
+              <span className="absolute -bottom-0.5 left-0 h-px w-0 bg-coral-fire transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
         </nav>
