@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --color-deep-brown: #3d2018;
+  --color-terracotta: #9b5a4b;
+  --color-coral-fire: #eb7559;
+  --color-blush-peach: #f7c8bc;
+  --color-warm-cream: #fdf5f2;
+}
+
+@theme inline {
+  --color-deep-brown: var(--color-deep-brown);
+  --color-terracotta: var(--color-terracotta);
+  --color-coral-fire: var(--color-coral-fire);
+  --color-blush-peach: var(--color-blush-peach);
+  --color-warm-cream: var(--color-warm-cream);
+
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-alegreya);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--color-warm-cream);
+  color: var(--color-deep-brown);
+}
+
+::selection {
+  background: var(--color-coral-fire);
+  color: var(--color-warm-cream);
+}
+
+/* Editorial underline used sparingly as the site's signature move */
+.signature-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.signature-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.08em;
+  width: 100%;
+  height: 2px;
+  background: var(--color-coral-fire);
+  transform-origin: left;
+}
+
+.hairline {
+  border-color: color-mix(in srgb, var(--color-deep-brown) 18%, transparent);
+}
+
+.hairline-light {
+  border-color: color-mix(in srgb, var(--color-warm-cream) 25%, transparent);
+}

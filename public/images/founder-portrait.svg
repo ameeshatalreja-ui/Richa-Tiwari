@@ -1,0 +1,13 @@
+<svg width="1000" height="1250" viewBox="0 0 1000 1250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder — replace with Richa Tiwari founder portrait">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3D2018"/>
+      <stop offset="60%" stop-color="#9B5A4B"/>
+      <stop offset="100%" stop-color="#F7C8BC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1250" fill="url(#g)"/>
+  <rect x="40" y="40" width="920" height="1170" fill="none" stroke="#FDF5F2" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="500" y="640" font-family="Georgia, serif" font-size="180" fill="#FDF5F2" fill-opacity="0.9" text-anchor="middle">RT</text>
+  <text x="500" y="1170" font-family="Arial, sans-serif" font-size="22" letter-spacing="2" fill="#FDF5F2" fill-opacity="0.75" text-anchor="middle">REPLACE — /public/images/founder-portrait</text>
+</svg>

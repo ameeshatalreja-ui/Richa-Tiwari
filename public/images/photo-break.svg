@@ -1,0 +1,11 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder — replace with full-bleed editorial photo break image">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D2018"/>
+      <stop offset="50%" stop-color="#9B5A4B"/>
+      <stop offset="100%" stop-color="#3D2018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g)"/>
+  <text x="960" y="560" font-family="Arial, sans-serif" font-size="26" letter-spacing="3" fill="#FDF5F2" fill-opacity="0.6" text-anchor="middle">REPLACE — /public/images/photo-break (full-bleed editorial image)</text>
+</svg>
